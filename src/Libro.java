@@ -46,7 +46,7 @@ public class Libro {
                 + ", copiasTotales=" + this.copiasTotales + ", copiasDisponibles=" + this.copiasDisponibles + "]";
     }
 
-    public void addLibro (ArrayList<Libro> lista) {
+    public static void addLibro (ArrayList<Libro> lista) {
         Scanner teclado = new Scanner(System.in);
         Libro lib = new Libro();
 
@@ -76,6 +76,13 @@ public class Libro {
 
         lista.add(lib);
     }
+
+        public static void eliminarLibro ( ArrayList<Libro> lista) {
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.println("Introduzca ISBN: ");
+
+        }
 
     //getters y setters
 
